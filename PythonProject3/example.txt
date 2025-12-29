@@ -1,0 +1,4 @@
+Stroke 1
+Stroke 2
+Stroke 3
+Stroke 4
