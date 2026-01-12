@@ -44,10 +44,12 @@ class TechManager(Manager, Technician):
         return info
 
 
-employee1 = Employee("Данил Корнеев", "11")
-manager1 = Manager("Артём Лебедев", "22", "Поддержка")
-technician1 = Technician("Влад Миронов", "33", "Системное администрирование")
-techmanager1 = TechManager("Сергей Фомин", "44", "Интеграции", "DevOps")
+# Демонстрация работы системы
+
+employee1 = Employee("Данил Корнеев", 1)
+manager1 = Manager("Артём Лебедев", 2, "Поддержка")
+technician1 = Technician("Влад Миронов", 3, "DevOps инженер")
+techmanager1 = TechManager("Сергей Фомин", 4, "IT-отдел", "Системный администратор")
 
 print(employee1.get_info())
 print(manager1.manage_project())
